@@ -17,7 +17,7 @@ public class Uygulama {
         int t = scanner.nextInt();
         Ders4 ders4=new Ders4();*/
         /*Scanner scanner = new Scanner(System.in);
-        System.out.println("Bir Rakam Giriniz");
+        System.out.println("Bir Rakam Giriniz");36
         int sayi = scanner.nextInt();
         Ornekler ornekler = new Ornekler();
         ornekler.sayiyiRakamaCevir(sayi);*/
@@ -26,9 +26,9 @@ public class Uygulama {
         // forDongusu.forDongusu();
         // forDongusu.ciftSayilar();
         //forDongusu.ucVeBesKatlari();
-        //forDongusu.karekokBulma();
-        KullaniciIslemleri kullaniciIslemleri = new KullaniciIslemleri();
-        kullaniciIslemleri.kullaniciGirisi();
+        forDongusu.karekokBulma();
+        //KullaniciIslemleri kullaniciIslemleri = new KullaniciIslemleri();
+        //kullaniciIslemleri.kullaniciGirisi();
 
     }
 

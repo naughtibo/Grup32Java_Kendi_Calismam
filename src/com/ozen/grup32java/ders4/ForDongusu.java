@@ -22,36 +22,37 @@ public class ForDongusu {
     }
 
     public void karekokBulma() {
-        System.out.println("Bir Sayı Giriniz");
         Scanner scanner = new Scanner(System.in);
+        System.out.println("Bir Sayı Giriniz");
         int girilenDeger = scanner.nextInt();
+        System.out.println("Karekök :   " + Math.sqrt(girilenDeger));
         int toplam = 0;
         int tekSayi = 1;
 
-        for (int i = 1; i < girilenDeger; i++) {
-
+        for (int i = 0; i <= girilenDeger; i++) {
             toplam = tekSayi + toplam;
             if (toplam > girilenDeger) {
-                System.out.println("Karekök " + (i - 1));
+                System.out.println("Sayının Karekökü    : " + i);
                 break;
             }
-            tekSayi = i + 2;
+            tekSayi += 2;
         }
     }
+
 
     public void asalSayiBulma() {
         System.out.println("Bir Sayı Giriniz");
         Scanner scanner = new Scanner(System.in);
         int girilenDeger = scanner.nextInt();
-        boolean sayiAsal=false;
+        boolean sayiAsal = false;
         for (int i = 2; i < girilenDeger; i++) {
-            if (girilenDeger % i == 0){
+            if (girilenDeger % i == 0) {
                 System.out.println("Asal Değildir");
                 break;
             }
 
         }
-        if(!sayiAsal)
+        if (!sayiAsal)
             System.out.println("Sayı Asaldır");
     }
 
