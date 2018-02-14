@@ -16,7 +16,6 @@ public class Uygulama {
         System.out.println("Yaşınızı Giriniz");
         int t = scanner.nextInt();
         Ders4 ders4=new Ders4();*/
-
         /*Scanner scanner = new Scanner(System.in);
         System.out.println("Bir Rakam Giriniz");
         int sayi = scanner.nextInt();
@@ -28,7 +27,7 @@ public class Uygulama {
         // forDongusu.ciftSayilar();
         //forDongusu.ucVeBesKatlari();
         //forDongusu.karekokBulma();
-        KullaniciIslemleri kullaniciIslemleri=new KullaniciIslemleri();
+        KullaniciIslemleri kullaniciIslemleri = new KullaniciIslemleri();
         kullaniciIslemleri.kullaniciGirisi();
 
     }
