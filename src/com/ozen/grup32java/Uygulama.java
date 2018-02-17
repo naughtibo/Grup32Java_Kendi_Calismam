@@ -6,6 +6,8 @@ import com.ozen.grup32java.ders4.Ders4;
 import com.ozen.grup32java.ders4.ForDongusu;
 import com.ozen.grup32java.ders4.KullaniciIslemleri;
 import com.ozen.grup32java.ders4.Ornekler;
+import com.ozen.grup32java.ders5.EnBuyukEnKucuk;
+import com.ozen.grup32java.ders5.RandomSayiBilme;
 
 import java.util.Scanner;
 
@@ -22,13 +24,17 @@ public class Uygulama {
         Ornekler ornekler = new Ornekler();
         ornekler.sayiyiRakamaCevir(sayi);*/
 
-        ForDongusu forDongusu = new ForDongusu();
+        //ForDongusu forDongusu = new ForDongusu();
         // forDongusu.forDongusu();
         // forDongusu.ciftSayilar();
         //forDongusu.ucVeBesKatlari();
-        forDongusu.karekokBulma();
+        //forDongusu.karekokBulma();
         //KullaniciIslemleri kullaniciIslemleri = new KullaniciIslemleri();
         //kullaniciIslemleri.kullaniciGirisi();
+        //RandomSayiBilme randomSayiBilme=new RandomSayiBilme();
+        //randomSayiBilme.kullaniciGirisi();
+        EnBuyukEnKucuk enBuyukEnKucuk = new EnBuyukEnKucuk();
+        enBuyukEnKucuk.notBulma();
 
     }
 
