@@ -7,6 +7,7 @@ import com.ozen.grup32java.ders4.ForDongusu;
 import com.ozen.grup32java.ders4.KullaniciIslemleri;
 import com.ozen.grup32java.ders4.Ornekler;
 import com.ozen.grup32java.ders5.EnBuyukEnKucuk;
+import com.ozen.grup32java.ders5.OrtalamaAlma;
 import com.ozen.grup32java.ders5.RandomSayiBilme;
 
 import java.util.Scanner;
@@ -33,8 +34,10 @@ public class Uygulama {
         //kullaniciIslemleri.kullaniciGirisi();
         //RandomSayiBilme randomSayiBilme=new RandomSayiBilme();
         //randomSayiBilme.kullaniciGirisi();
-        EnBuyukEnKucuk enBuyukEnKucuk = new EnBuyukEnKucuk();
-        enBuyukEnKucuk.notBulma();
+        //EnBuyukEnKucuk enBuyukEnKucuk = new EnBuyukEnKucuk();
+        //enBuyukEnKucuk.notBulma();
+        OrtalamaAlma ortalamaAlma=new OrtalamaAlma();
+        ortalamaAlma.ortalamaBul();
 
     }
 
